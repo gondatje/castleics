@@ -1,0 +1,14 @@
+{
+  "name": "castleics",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "validate:activities": "node scripts/validateActivities.mjs",
+    "dev:static": "serve -s . -l 4173",
+    "e2e:screenshot:summer-wed": "playwright test scripts/e2e/screenshot-summer-wed.spec.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "serve": "^14.2.0"
+  }
+}
