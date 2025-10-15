@@ -203,12 +203,18 @@ function normalizeSeasons(raw: RawSeasonalActivities): NormalizedSeason[] {
       Sunday: []
     };
 
+    if (season.days && typeof season.days === 'object') {
+      for (const [rawDay, rawActivities] of Object.entries(season.days)) {
+        const canonicalDay = safeNormalizeDay(rawDay);
+        if (!canonicalDay) continue;
+        if (!Array.isArray(rawActivities)) continue;
+        const normalizedActivities = rawActivities.map((activity) => normalizeActivity(activity));
+        normalizedDays[canonicalDay].push(...normalizedActivities);
+      }
+    }
+
     for (const dayName of DAY_ORDER) {
-      const rawActivities = season.days[dayName] ?? [];
-      const normalizedActivities = rawActivities
-        .map((activity) => normalizeActivity(activity))
-        .sort((a, b) => a.start.localeCompare(b.start));
-      normalizedDays[dayName] = normalizedActivities;
+      normalizedDays[dayName].sort((a, b) => a.start.localeCompare(b.start));
     }
 
     seasons.push({
@@ -254,11 +260,38 @@ function buildSeasonIndex(seasons: NormalizedSeason[]): Map<string, NormalizedSe
     keys.add(season.label.toLowerCase());
     keys.add(season.name.toLowerCase());
     keys.add(season.id.toLowerCase());
+    for (const alias of deriveSeasonAliases(season)) {
+      keys.add(alias);
+      keys.add(alias.toLowerCase());
+    }
     for (const key of keys) {
       map.set(key, season);
     }
   });
   return map;
+}
+
+function deriveSeasonAliases(season: NormalizedSeason): string[] {
+  const aliases = new Set<string>();
+  const descriptor = `${season.label} ${season.name}`.toLowerCase();
+  if (descriptor.includes('early summer')) {
+    aliases.add('ESu');
+  } else if (descriptor.includes('summer')) {
+    aliases.add('Su');
+  }
+  if (descriptor.includes('fall') || descriptor.includes('autumn')) {
+    aliases.add('F');
+  }
+  if (descriptor.includes('early winter')) {
+    aliases.add('EW');
+  }
+  if (descriptor.includes('late winter')) {
+    aliases.add('LW');
+  }
+  if (descriptor.includes('spring')) {
+    aliases.add('Sp');
+  }
+  return Array.from(aliases);
 }
 
 function resolveSeasonAndDay(input: SeasonalLookupInput): SeasonLookupResult {
@@ -306,6 +339,15 @@ function normalizeDay(value?: string): DayName {
     if (day.toLowerCase() === trimmed) return day;
   }
   throw new Error(`Unknown day: ${value}`);
+}
+
+function safeNormalizeDay(value?: string): DayName | undefined {
+  if (typeof value !== 'string') return undefined;
+  try {
+    return normalizeDay(value);
+  } catch {
+    return undefined;
+  }
 }
 
 function lookupSeason(value?: string): NormalizedSeason | undefined {
