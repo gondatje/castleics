@@ -1,0 +1,3455 @@
+{
+  "seasons": [
+    {
+      "label": "Summer 2025",
+      "name": "SUMMER 2025",
+      "range": "August 28 – October 15",
+      "days": {
+        "Monday": [
+          {
+            "title": "Overlook Hike",
+            "start": "06:45",
+            "end": "08:15"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "07:00",
+            "end": "09:15"
+          },
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "07:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Crater Canyon Exploration",
+            "start": "07:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Rise & Shine Flow Yoga",
+            "start": "08:30",
+            "end": "09:25"
+          },
+          {
+            "title": "E-Biking 101: Intro to E-Bike Tour",
+            "start": "09:00",
+            "end": "10:15"
+          },
+          {
+            "title": "Landscape Restoration and Development Tour",
+            "start": "09:30",
+            "end": "10:15"
+          },
+          {
+            "title": "Meditation",
+            "start": "09:40",
+            "end": "10:00"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "10:00",
+            "end": "10:45"
+          },
+          {
+            "title": "Intro to Tai Chi",
+            "start": "10:15",
+            "end": "11:00"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "10:30",
+            "end": "11:30"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "11:00",
+            "end": "11:45"
+          },
+          {
+            "title": "Paddle Board Yoga",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "title": "Sound Bath",
+            "start": "12:30",
+            "end": "13:30"
+          },
+          {
+            "title": "Mindfulness Activity – Rock Mandalas",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Cooling Aroma Restorative Yoga",
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
+            "title": "Wine Tasting",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Yoga",
+            "start": "15:15",
+            "end": "16:10"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:00",
+            "end": "16:45"
+          },
+          {
+            "title": "Connecting With Water",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "title": "Yoga Nidra",
+            "start": "16:30",
+            "end": "17:00"
+          }
+        ],
+        "Tuesday": [
+          {
+            "title": "Canyon Walk",
+            "start": "07:00",
+            "end": "08:15"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "07:00",
+            "end": "09:15"
+          },
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "07:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Sonoran Aerial Walkway",
+            "start": "07:30",
+            "end": "09:00"
+          },
+          {
+            "title": "Yoga",
+            "start": "08:30",
+            "end": "09:25"
+          },
+          {
+            "title": "Meditation",
+            "start": "09:40",
+            "end": "10:00"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "10:00",
+            "end": "10:45"
+          },
+          {
+            "title": "Healing Waters Qigong",
+            "start": "10:30",
+            "end": "11:15"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "10:30",
+            "end": "11:30"
+          },
+          {
+            "title": "Paddle Board Yoga",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "title": "History Tour",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Mindfulness Activity – Cholla Suncatchers",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Agave Spirits Tasting",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:00",
+            "end": "16:45"
+          }
+        ],
+        "Wednesday": [
+          {
+            "title": "Discovery Loop Hike",
+            "start": "06:45",
+            "end": "08:15"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "07:00",
+            "end": "09:15"
+          },
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "07:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Crater Canyon Exploration",
+            "start": "07:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Rise & Shine Flow Yoga",
+            "start": "08:30",
+            "end": "09:25"
+          },
+          {
+            "title": "E-Biking 101: Intro to E-Bike Tour",
+            "start": "09:00",
+            "end": "10:15"
+          },
+          {
+            "title": "Landscape Restoration and Development Tour",
+            "start": "09:30",
+            "end": "10:15"
+          },
+          {
+            "title": "Meditation",
+            "start": "09:40",
+            "end": "10:00"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "10:00",
+            "end": "10:45"
+          },
+          {
+            "title": "Intro to Tai Chi",
+            "start": "10:15",
+            "end": "11:00"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "10:30",
+            "end": "11:30"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "11:00",
+            "end": "11:45"
+          },
+          {
+            "title": "Paddle Board Yoga",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "title": "Sound Bath",
+            "start": "12:30",
+            "end": "13:30"
+          },
+          {
+            "title": "Mindfulness Activity – Body Scrubs",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Core Yoga",
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
+            "title": "Farm to Bar: Mixology 101",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Yoga",
+            "start": "15:15",
+            "end": "16:10"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:00",
+            "end": "16:45"
+          },
+          {
+            "title": "Connecting With Water",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "title": "Intro to Mantra",
+            "start": "16:30",
+            "end": "17:00"
+          }
+        ],
+        "Thursday": [
+          {
+            "title": "Canyon Walk",
+            "start": "07:00",
+            "end": "08:15"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "07:00",
+            "end": "09:15"
+          },
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "07:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Sonoran Aerial Walkway",
+            "start": "07:30",
+            "end": "09:00"
+          },
+          {
+            "title": "Yoga",
+            "start": "08:30",
+            "end": "09:25"
+          },
+          {
+            "title": "Meditation",
+            "start": "09:40",
+            "end": "10:00"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "10:00",
+            "end": "10:45"
+          },
+          {
+            "title": "Healing Waters Qigong",
+            "start": "10:30",
+            "end": "11:15"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "10:30",
+            "end": "11:30"
+          },
+          {
+            "title": "Paddle Board Yoga",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "title": "History Tour",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Mindfulness Activity – Rock Mandalas",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Cooling Aroma Restorative Yoga",
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
+            "title": "Agave Spirits Tasting",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Yoga Nidra",
+            "start": "15:15",
+            "end": "15:45"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:00",
+            "end": "16:45"
+          }
+        ],
+        "Friday": [
+          {
+            "title": "Overlook Hike",
+            "start": "06:45",
+            "end": "08:15"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "07:00",
+            "end": "09:15"
+          },
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "07:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Crater Canyon Exploration",
+            "start": "07:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Rise & Shine Flow Yoga",
+            "start": "08:30",
+            "end": "09:25"
+          },
+          {
+            "title": "E-Biking 101: Intro to E-Bike Tour",
+            "start": "09:00",
+            "end": "10:15"
+          },
+          {
+            "title": "Landscape Restoration and Development Tour",
+            "start": "09:30",
+            "end": "10:15"
+          },
+          {
+            "title": "Meditation",
+            "start": "09:40",
+            "end": "10:00"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "10:00",
+            "end": "10:45"
+          },
+          {
+            "title": "Intro to Tai Chi",
+            "start": "10:15",
+            "end": "11:00"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "10:30",
+            "end": "11:30"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "11:00",
+            "end": "11:45"
+          },
+          {
+            "title": "Paddle Board Yoga",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "title": "Sound Bath",
+            "start": "12:30",
+            "end": "13:30"
+          },
+          {
+            "title": "Mindfulness Activity – Cactus Candles",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Core Yoga",
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
+            "title": "Farm to Bar: Mixology 101",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Yoga",
+            "start": "15:15",
+            "end": "16:10"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:00",
+            "end": "16:45"
+          },
+          {
+            "title": "Intro to Mantra",
+            "start": "16:30",
+            "end": "17:00"
+          }
+        ],
+        "Saturday": [
+          {
+            "title": "Discovery Loop Hike",
+            "start": "06:45",
+            "end": "08:15"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "07:00",
+            "end": "09:15"
+          },
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "07:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Crater Canyon Exploration",
+            "start": "07:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Yoga",
+            "start": "08:30",
+            "end": "09:25"
+          },
+          {
+            "title": "Meditation",
+            "start": "09:40",
+            "end": "10:00"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "10:00",
+            "end": "10:45"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "10:30",
+            "end": "11:30"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "11:00",
+            "end": "11:45"
+          },
+          {
+            "title": "Paddle Board Yoga",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "title": "Mindfulness Activity – Body Scrubs",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Cooling Aroma Restorative Yoga",
+            "start": "14:00",
+            "end": "15:00"
+          },
+          {
+            "title": "Wine Tasting",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Yoga Nidra",
+            "start": "15:15",
+            "end": "15:45"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:00",
+            "end": "16:45"
+          },
+          {
+            "title": "Connecting With Water",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
+        "Sunday": [
+          {
+            "title": "Canyon Walk",
+            "start": "07:00",
+            "end": "08:15"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "07:00",
+            "end": "09:15"
+          },
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "07:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Sonoran Aerial Walkway",
+            "start": "07:30",
+            "end": "09:00"
+          },
+          {
+            "title": "Yoga",
+            "start": "08:30",
+            "end": "09:25"
+          },
+          {
+            "title": "Meditation",
+            "start": "09:40",
+            "end": "10:00"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "10:00",
+            "end": "10:45"
+          },
+          {
+            "title": "Healing Waters Qigong",
+            "start": "10:30",
+            "end": "11:15"
+          },
+          {
+            "title": "History Tour",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Mindfulness Activity – Sunprint Postcards",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Farm to Bar: Mixology 101",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:00",
+            "end": "16:45"
+          }
+        ]
+      }
+    },
+    {
+      "label": "Fall 2025",
+      "name": "FALL 2025",
+      "range": "October 16 – November 19",
+      "days": {
+        "Monday": [
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "08:00",
+            "end": "11:00"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "08:15",
+            "end": "10:30"
+          },
+          {
+            "title": "Rise & Shine Flow Yoga",
+            "start": "08:30",
+            "end": "09:25"
+          },
+          {
+            "title": "Landscape Restoration and Development Tour",
+            "start": "09:30",
+            "end": "10:15"
+          },
+          {
+            "title": "Meditation",
+            "start": "09:40",
+            "end": "10:00"
+          },
+          {
+            "title": "Intro to Tai Chi",
+            "start": "10:15",
+            "end": "11:00"
+          },
+          {
+            "title": "Overlook Hike",
+            "start": "10:30",
+            "end": "11:30"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "11:30",
+            "end": "12:15"
+          },
+          {
+            "title": "E-Biking 101: Intro to E-Bike Tour",
+            "start": "11:30",
+            "end": "12:45"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "12:30",
+            "end": "13:15"
+          },
+          {
+            "title": "Sound Bath",
+            "start": "12:30",
+            "end": "13:30"
+          },
+          {
+            "title": "Crater Canyon Exploration",
+            "start": "13:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Healing Waters Qigong",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Mindfulness Activity – Rock Mandalas",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Wine Tasting",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Yoga",
+            "start": "15:15",
+            "end": "16:10"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:00",
+            "end": "16:45"
+          },
+          {
+            "title": "Connecting With Water",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
+        "Tuesday": [
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "08:00",
+            "end": "11:00"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "08:15",
+            "end": "10:30"
+          },
+          {
+            "title": "Yoga",
+            "start": "08:30",
+            "end": "09:25"
+          },
+          {
+            "title": "Meditation",
+            "start": "09:40",
+            "end": "10:00"
+          },
+          {
+            "title": "Canyon Walk",
+            "start": "10:30",
+            "end": "11:45"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "11:30",
+            "end": "12:15"
+          },
+          {
+            "title": "History Tour",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Mindfulness Activity – Cholla Suncatchers",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Agave Spirits Tasting",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Sonoran Aerial Walkway",
+            "start": "15:30",
+            "end": "17:00"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:00",
+            "end": "16:45"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
+        "Wednesday": [
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "08:00",
+            "end": "11:00"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "08:15",
+            "end": "10:30"
+          },
+          {
+            "title": "Rise & Shine Flow Yoga",
+            "start": "08:30",
+            "end": "09:25"
+          },
+          {
+            "title": "Landscape Restoration and Development Tour",
+            "start": "09:30",
+            "end": "10:15"
+          },
+          {
+            "title": "Meditation",
+            "start": "09:40",
+            "end": "10:00"
+          },
+          {
+            "title": "Intro to Tai Chi",
+            "start": "10:15",
+            "end": "11:00"
+          },
+          {
+            "title": "Discovery Loop Hike",
+            "start": "10:30",
+            "end": "11:30"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "11:30",
+            "end": "12:15"
+          },
+          {
+            "title": "E-Biking 101: Intro to E-Bike Tour",
+            "start": "11:30",
+            "end": "12:45"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "12:30",
+            "end": "13:15"
+          },
+          {
+            "title": "Sound Bath",
+            "start": "12:30",
+            "end": "13:30"
+          },
+          {
+            "title": "Crater Canyon Exploration",
+            "start": "13:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Healing Waters Qigong",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Mindfulness Activity – Body Scrubs",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Farm to Bar: Mixology 101",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Yoga",
+            "start": "15:15",
+            "end": "16:10"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:00",
+            "end": "16:45"
+          },
+          {
+            "title": "Connecting With Water",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
+        "Thursday": [
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "08:00",
+            "end": "11:00"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "08:15",
+            "end": "10:30"
+          },
+          {
+            "title": "Yoga",
+            "start": "08:30",
+            "end": "09:25"
+          },
+          {
+            "title": "Meditation",
+            "start": "09:40",
+            "end": "10:00"
+          },
+          {
+            "title": "Canyon Walk",
+            "start": "10:30",
+            "end": "11:45"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "11:30",
+            "end": "12:15"
+          },
+          {
+            "title": "History Tour",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Mindfulness Activity – Rock Mandalas",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Agave Spirits Tasting",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Sonoran Aerial Walkway",
+            "start": "15:30",
+            "end": "17:00"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:00",
+            "end": "16:45"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
+        "Friday": [
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "08:00",
+            "end": "11:00"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "08:15",
+            "end": "10:30"
+          },
+          {
+            "title": "Rise & Shine Flow Yoga",
+            "start": "08:30",
+            "end": "09:25"
+          },
+          {
+            "title": "Landscape Restoration and Development Tour",
+            "start": "09:30",
+            "end": "10:15"
+          },
+          {
+            "title": "Meditation",
+            "start": "09:40",
+            "end": "10:00"
+          },
+          {
+            "title": "Intro to Tai Chi",
+            "start": "10:15",
+            "end": "11:00"
+          },
+          {
+            "title": "Overlook Hike",
+            "start": "10:30",
+            "end": "11:30"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "11:30",
+            "end": "12:15"
+          },
+          {
+            "title": "E-Biking 101: Intro to E-Bike Tour",
+            "start": "11:30",
+            "end": "12:45"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "12:30",
+            "end": "13:15"
+          },
+          {
+            "title": "Sound Bath",
+            "start": "12:30",
+            "end": "13:30"
+          },
+          {
+            "title": "Crater Canyon Exploration",
+            "start": "13:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Healing Waters Qigong",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Mindfulness Activity – Cactus Candles",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Farm to Bar: Mixology 101",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Yoga",
+            "start": "15:15",
+            "end": "16:10"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:00",
+            "end": "16:45"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
+        "Saturday": [
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "08:00",
+            "end": "11:00"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "08:15",
+            "end": "10:30"
+          },
+          {
+            "title": "Yoga",
+            "start": "08:30",
+            "end": "09:25"
+          },
+          {
+            "title": "Meditation",
+            "start": "09:40",
+            "end": "10:00"
+          },
+          {
+            "title": "Discovery Loop Hike",
+            "start": "10:30",
+            "end": "11:45"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "11:30",
+            "end": "12:15"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "12:30",
+            "end": "13:15"
+          },
+          {
+            "title": "Crater Canyon Exploration",
+            "start": "13:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Mindfulness Activity – Body Scrubs",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Wine Tasting",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Sonoran Aerial Walkway",
+            "start": "15:30",
+            "end": "17:00"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:00",
+            "end": "16:45"
+          },
+          {
+            "title": "Connecting With Water",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
+        "Sunday": [
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "08:00",
+            "end": "11:00"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "08:15",
+            "end": "10:30"
+          },
+          {
+            "title": "Yoga",
+            "start": "08:30",
+            "end": "09:25"
+          },
+          {
+            "title": "Meditation",
+            "start": "09:40",
+            "end": "10:00"
+          },
+          {
+            "title": "Canyon Walk",
+            "start": "10:30",
+            "end": "11:45"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "11:30",
+            "end": "12:15"
+          },
+          {
+            "title": "History Tour",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Mindfulness Activity – Sunprint Postcards",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Farm to Bar: Mixology 101",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Sonoran Aerial Walkway",
+            "start": "15:30",
+            "end": "17:00"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:00",
+            "end": "16:45"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ]
+      }
+    },
+    {
+      "label": "Early Winter 2025",
+      "name": "EARLY WINTER 2025",
+      "range": "Nov 20 – Jan 25",
+      "days": {
+        "Monday": [
+          {
+            "title": "Peaceful Warrior Flow Yoga",
+            "start": "08:30",
+            "end": "09:30"
+          },
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "09:00",
+            "end": "12:00"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "09:15",
+            "end": "11:30"
+          },
+          {
+            "title": "Meditation",
+            "start": "09:40",
+            "end": "10:00"
+          },
+          {
+            "title": "Intro to Tai Chi",
+            "start": "10:15",
+            "end": "11:00"
+          },
+          {
+            "title": "Overlook Hike",
+            "start": "10:30",
+            "end": "12:00"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "12:00",
+            "end": "12:45"
+          },
+          {
+            "title": "Sound Bath",
+            "start": "12:30",
+            "end": "13:30"
+          },
+          {
+            "title": "E-Biking 101: Intro to E-Bike Tour",
+            "start": "12:30",
+            "end": "13:45"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "13:00",
+            "end": "13:45"
+          },
+          {
+            "title": "Crater Canyon Exploration",
+            "start": "13:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Mindfulness Activity – Rock Mandalas",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Wine Tasting",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Yoga",
+            "start": "15:15",
+            "end": "16:15"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:00",
+            "end": "16:45"
+          },
+          {
+            "title": "Connecting With Water",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
+        "Tuesday": [
+          {
+            "title": "Yoga",
+            "start": "08:30",
+            "end": "09:30"
+          },
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "09:00",
+            "end": "12:00"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "09:15",
+            "end": "11:30"
+          },
+          {
+            "title": "Meditation",
+            "start": "09:40",
+            "end": "10:00"
+          },
+          {
+            "title": "Healing Waters Qigong",
+            "start": "10:30",
+            "end": "11:15"
+          },
+          {
+            "title": "Canyon Walk",
+            "start": "10:30",
+            "end": "11:45"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "12:00",
+            "end": "12:45"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "13:00",
+            "end": "13:45"
+          },
+          {
+            "title": "History Tour",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Mindfulness Activity – Cholla Suncatchers",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Agave Spirits Tasting",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Sonoran Aerial Walkway",
+            "start": "15:00",
+            "end": "16:30"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:00",
+            "end": "16:45"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
+        "Wednesday": [
+          {
+            "title": "Peaceful Warrior Flow Yoga",
+            "start": "08:30",
+            "end": "09:30"
+          },
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "09:00",
+            "end": "12:00"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "09:15",
+            "end": "11:30"
+          },
+          {
+            "title": "Meditation",
+            "start": "09:40",
+            "end": "10:00"
+          },
+          {
+            "title": "Intro to Tai Chi",
+            "start": "10:15",
+            "end": "11:00"
+          },
+          {
+            "title": "Discovery Loop Hike",
+            "start": "10:30",
+            "end": "12:00"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "12:00",
+            "end": "12:45"
+          },
+          {
+            "title": "Sound Bath",
+            "start": "12:30",
+            "end": "13:30"
+          },
+          {
+            "title": "E-Biking 101: Intro to E-Bike Tour",
+            "start": "12:30",
+            "end": "13:45"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "13:00",
+            "end": "13:45"
+          },
+          {
+            "title": "Crater Canyon Exploration",
+            "start": "13:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Mindfulness Activity – Body Scrubs",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Farm to Bar: Mixology 101",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Yoga",
+            "start": "15:15",
+            "end": "16:15"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:00",
+            "end": "16:45"
+          },
+          {
+            "title": "Connecting With Water",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
+        "Thursday": [
+          {
+            "title": "Yoga",
+            "start": "08:30",
+            "end": "09:30"
+          },
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "09:00",
+            "end": "12:00"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "09:15",
+            "end": "11:30"
+          },
+          {
+            "title": "Meditation",
+            "start": "09:40",
+            "end": "10:00"
+          },
+          {
+            "title": "Healing Waters Qigong",
+            "start": "10:30",
+            "end": "11:15"
+          },
+          {
+            "title": "Canyon Walk",
+            "start": "10:30",
+            "end": "11:45"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "12:00",
+            "end": "12:45"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "13:00",
+            "end": "13:45"
+          },
+          {
+            "title": "History Tour",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Mindfulness Activity – Rock Mandalas",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Agave Spirits Tasting",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Sonoran Aerial Walkway",
+            "start": "15:00",
+            "end": "16:30"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:00",
+            "end": "16:45"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
+        "Friday": [
+          {
+            "title": "Peaceful Warrior Flow Yoga",
+            "start": "08:30",
+            "end": "09:30"
+          },
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "09:00",
+            "end": "12:00"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "09:15",
+            "end": "11:30"
+          },
+          {
+            "title": "Meditation",
+            "start": "09:40",
+            "end": "10:00"
+          },
+          {
+            "title": "Intro to Tai Chi",
+            "start": "10:15",
+            "end": "11:00"
+          },
+          {
+            "title": "Overlook Hike",
+            "start": "10:30",
+            "end": "12:00"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "12:00",
+            "end": "12:45"
+          },
+          {
+            "title": "Sound Bath",
+            "start": "12:30",
+            "end": "13:30"
+          },
+          {
+            "title": "E-Biking 101: Intro to E-Bike Tour",
+            "start": "12:30",
+            "end": "13:45"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "13:00",
+            "end": "13:45"
+          },
+          {
+            "title": "Crater Canyon Exploration",
+            "start": "13:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Mindfulness Activity – Cactus Candles",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Farm to Bar: Mixology 101",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Yoga",
+            "start": "15:15",
+            "end": "16:15"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:00",
+            "end": "16:45"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
+        "Saturday": [
+          {
+            "title": "Yoga",
+            "start": "08:30",
+            "end": "09:30"
+          },
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "09:00",
+            "end": "12:00"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "09:15",
+            "end": "11:30"
+          },
+          {
+            "title": "Meditation",
+            "start": "09:40",
+            "end": "10:00"
+          },
+          {
+            "title": "Discovery Loop Hike",
+            "start": "10:30",
+            "end": "12:00"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "12:00",
+            "end": "12:45"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "13:00",
+            "end": "13:45"
+          },
+          {
+            "title": "Crater Canyon Exploration",
+            "start": "13:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Mindfulness Activity – Body Scrubs",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Wine Tasting",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Sonoran Aerial Walkway",
+            "start": "15:00",
+            "end": "16:30"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:00",
+            "end": "16:45"
+          },
+          {
+            "title": "Connecting With Water",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ],
+        "Sunday": [
+          {
+            "title": "Yoga",
+            "start": "08:30",
+            "end": "09:30"
+          },
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "09:00",
+            "end": "12:00"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "09:15",
+            "end": "11:30"
+          },
+          {
+            "title": "Meditation",
+            "start": "09:40",
+            "end": "10:00"
+          },
+          {
+            "title": "Healing Waters Qigong",
+            "start": "10:30",
+            "end": "11:15"
+          },
+          {
+            "title": "Canyon Walk",
+            "start": "10:30",
+            "end": "11:45"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "12:00",
+            "end": "12:45"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "13:00",
+            "end": "13:45"
+          },
+          {
+            "title": "History Tour",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Mindfulness Activity – Sunprint Postcards",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Farm to Bar: Mixology 101",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Sonoran Aerial Walkway",
+            "start": "15:00",
+            "end": "16:30"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:00",
+            "end": "16:45"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ]
+      }
+    },
+    {
+      "label": "Late Winter 2025",
+      "name": "LATE WINTER 2025",
+      "range": "Jan 26 – Mar 1",
+      "days": {
+        "Monday": [
+          {
+            "title": "Peaceful Warrior Flow Yoga",
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "09:00",
+            "end": "12:00"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "09:15",
+            "end": "11:30"
+          },
+          {
+            "title": "Meditation",
+            "start": "10:10",
+            "end": "10:30"
+          },
+          {
+            "title": "Intro to Tai Chi",
+            "start": "10:45",
+            "end": "11:30"
+          },
+          {
+            "title": "Overlook Hike",
+            "start": "10:45",
+            "end": "12:15"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "12:00",
+            "end": "12:45"
+          },
+          {
+            "title": "E-Biking 101: Intro to E-Bike Tour",
+            "start": "12:30",
+            "end": "13:45"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "13:00",
+            "end": "13:45"
+          },
+          {
+            "title": "Sound Bath",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "title": "Crater Canyon Exploration",
+            "start": "13:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Mindfulness Activity – Rock Mandalas",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Warming Aroma Restorative Yoga",
+            "start": "14:30",
+            "end": "15:30"
+          },
+          {
+            "title": "Wine Tasting",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Connecting With Water",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:30",
+            "end": "17:15"
+          }
+        ],
+        "Tuesday": [
+          {
+            "title": "Yoga",
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "09:00",
+            "end": "12:00"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "09:15",
+            "end": "11:30"
+          },
+          {
+            "title": "Meditation",
+            "start": "10:10",
+            "end": "10:30"
+          },
+          {
+            "title": "Canyon Walk",
+            "start": "10:45",
+            "end": "12:00"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "12:00",
+            "end": "12:45"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "13:00",
+            "end": "13:45"
+          },
+          {
+            "title": "Healing Waters Qigong",
+            "start": "13:00",
+            "end": "13:45"
+          },
+          {
+            "title": "History Tour",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Mindfulness Activity – Cholla Suncatchers",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Agave Spirits Tasting",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Sonoran Aerial Walkway",
+            "start": "15:00",
+            "end": "16:30"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:30",
+            "end": "17:15"
+          }
+        ],
+        "Wednesday": [
+          {
+            "title": "Peaceful Warrior Flow Yoga",
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "09:00",
+            "end": "12:00"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "09:15",
+            "end": "11:30"
+          },
+          {
+            "title": "Meditation",
+            "start": "10:10",
+            "end": "10:30"
+          },
+          {
+            "title": "Intro to Tai Chi",
+            "start": "10:45",
+            "end": "11:30"
+          },
+          {
+            "title": "Discovery Loop Hike",
+            "start": "10:45",
+            "end": "12:15"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "12:00",
+            "end": "12:45"
+          },
+          {
+            "title": "E-Biking 101: Intro to E-Bike Tour",
+            "start": "12:30",
+            "end": "13:45"
+          },
+          {
+            "title": "Sound Bath",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "13:00",
+            "end": "13:45"
+          },
+          {
+            "title": "Crater Canyon Exploration",
+            "start": "13:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Mindfulness Activity – Body Scrubs",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Core Yoga",
+            "start": "14:30",
+            "end": "15:30"
+          },
+          {
+            "title": "Farm to Bar: Mixology 101",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Connecting With Water",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:30",
+            "end": "17:15"
+          }
+        ],
+        "Thursday": [
+          {
+            "title": "Yoga",
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "09:00",
+            "end": "12:00"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "09:15",
+            "end": "11:30"
+          },
+          {
+            "title": "Meditation",
+            "start": "10:10",
+            "end": "10:30"
+          },
+          {
+            "title": "Canyon Walk",
+            "start": "10:45",
+            "end": "12:00"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "12:00",
+            "end": "12:45"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "13:00",
+            "end": "13:45"
+          },
+          {
+            "title": "Healing Waters Qigong",
+            "start": "13:00",
+            "end": "13:45"
+          },
+          {
+            "title": "History Tour",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Mindfulness Activity – Rock Mandalas",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Agave Spirits Tasting",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Sonoran Aerial Walkway",
+            "start": "15:00",
+            "end": "16:30"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:30",
+            "end": "17:15"
+          }
+        ],
+        "Friday": [
+          {
+            "title": "Peaceful Warrior Flow Yoga",
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "09:00",
+            "end": "12:00"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "09:15",
+            "end": "11:30"
+          },
+          {
+            "title": "Meditation",
+            "start": "10:10",
+            "end": "10:30"
+          },
+          {
+            "title": "Intro to Tai Chi",
+            "start": "10:45",
+            "end": "11:30"
+          },
+          {
+            "title": "Overlook Hike",
+            "start": "10:45",
+            "end": "12:15"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "12:00",
+            "end": "12:45"
+          },
+          {
+            "title": "E-Biking 101: Intro to E-Bike Tour",
+            "start": "12:30",
+            "end": "13:45"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "13:00",
+            "end": "13:45"
+          },
+          {
+            "title": "Sound Bath",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "title": "Crater Canyon Exploration",
+            "start": "13:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Mindfulness Activity – Cactus Candles",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Core Yoga",
+            "start": "14:30",
+            "end": "15:30"
+          },
+          {
+            "title": "Farm to Bar: Mixology 101",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:30",
+            "end": "17:15"
+          }
+        ],
+        "Saturday": [
+          {
+            "title": "Yoga",
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "09:00",
+            "end": "12:00"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "09:15",
+            "end": "11:30"
+          },
+          {
+            "title": "Meditation",
+            "start": "10:10",
+            "end": "10:30"
+          },
+          {
+            "title": "Discovery Loop Hike",
+            "start": "10:45",
+            "end": "12:15"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "12:00",
+            "end": "12:45"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "13:00",
+            "end": "13:45"
+          },
+          {
+            "title": "Crater Canyon Exploration",
+            "start": "13:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Mindfulness Activity – Body Scrubs",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Warming Aroma Restorative Yoga",
+            "start": "14:30",
+            "end": "15:30"
+          },
+          {
+            "title": "Wine Tasting",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Sonoran Aerial Walkway",
+            "start": "15:00",
+            "end": "16:30"
+          },
+          {
+            "title": "Connecting With Water",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:30",
+            "end": "17:15"
+          }
+        ],
+        "Sunday": [
+          {
+            "title": "Yoga",
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "09:00",
+            "end": "12:00"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "09:15",
+            "end": "11:30"
+          },
+          {
+            "title": "Meditation",
+            "start": "10:10",
+            "end": "10:30"
+          },
+          {
+            "title": "Canyon Walk",
+            "start": "10:45",
+            "end": "12:00"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "12:00",
+            "end": "12:45"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "13:00",
+            "end": "13:45"
+          },
+          {
+            "title": "Healing Waters Qigong",
+            "start": "13:00",
+            "end": "13:45"
+          },
+          {
+            "title": "History Tour",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Mindfulness Activity – Sunprint Postcards",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Farm to Bar: Mixology 101",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Sonoran Aerial Walkway",
+            "start": "15:00",
+            "end": "16:30"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:30",
+            "end": "17:15"
+          }
+        ]
+      }
+    },
+    {
+      "label": "Spring 2025",
+      "name": "SPRING 2025",
+      "range": "March 2 – April 19",
+      "days": {
+        "Monday": [
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "08:00",
+            "end": "11:00"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "08:15",
+            "end": "10:30"
+          },
+          {
+            "title": "Lotus Rising Flow Yoga",
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Meditation",
+            "start": "10:10",
+            "end": "10:30"
+          },
+          {
+            "title": "Intro to Tai Chi",
+            "start": "10:45",
+            "end": "11:30"
+          },
+          {
+            "title": "Overlook Hike",
+            "start": "10:45",
+            "end": "12:15"
+          },
+          {
+            "title": "Paddle Board Yoga",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "11:30",
+            "end": "12:15"
+          },
+          {
+            "title": "E-Biking 101: Intro to E-Bike Tour",
+            "start": "11:30",
+            "end": "12:45"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "12:30",
+            "end": "13:15"
+          },
+          {
+            "title": "Sound Bath",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "title": "Crater Canyon Exploration",
+            "start": "13:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Mindfulness Activity – Rock Mandalas",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Balancing Aroma Restorative Yoga",
+            "start": "14:30",
+            "end": "15:30"
+          },
+          {
+            "title": "Wine Tasting",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Connecting With Water",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:30",
+            "end": "17:15"
+          }
+        ],
+        "Tuesday": [
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "08:00",
+            "end": "11:00"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "08:15",
+            "end": "10:30"
+          },
+          {
+            "title": "Yoga",
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Meditation",
+            "start": "10:10",
+            "end": "10:30"
+          },
+          {
+            "title": "Canyon Walk",
+            "start": "10:45",
+            "end": "12:00"
+          },
+          {
+            "title": "Paddle Board Yoga",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "11:30",
+            "end": "12:15"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "12:30",
+            "end": "13:15"
+          },
+          {
+            "title": "Healing Waters Qigong",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "title": "History Tour",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Mindfulness Activity – Cholla Suncatchers",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Agave Spirits Tasting",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Sonoran Aerial Walkway",
+            "start": "15:30",
+            "end": "17:00"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:30",
+            "end": "17:15"
+          }
+        ],
+        "Wednesday": [
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "08:00",
+            "end": "11:00"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "08:15",
+            "end": "10:30"
+          },
+          {
+            "title": "Lotus Rising Flow Yoga",
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Meditation",
+            "start": "10:10",
+            "end": "10:30"
+          },
+          {
+            "title": "Intro to Tai Chi",
+            "start": "10:45",
+            "end": "11:30"
+          },
+          {
+            "title": "Discovery Loop Hike",
+            "start": "10:45",
+            "end": "12:15"
+          },
+          {
+            "title": "Paddle Board Yoga",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "11:30",
+            "end": "12:15"
+          },
+          {
+            "title": "E-Biking 101: Intro to E-Bike Tour",
+            "start": "11:30",
+            "end": "12:45"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "12:30",
+            "end": "13:15"
+          },
+          {
+            "title": "Sound Bath",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "title": "Crater Canyon Exploration",
+            "start": "13:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Mindfulness Activity – Body Scrubs",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Core Yoga",
+            "start": "14:30",
+            "end": "15:30"
+          },
+          {
+            "title": "Farm to Bar: Mixology 101",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Connecting With Water",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:30",
+            "end": "17:15"
+          }
+        ],
+        "Thursday": [
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "08:00",
+            "end": "11:00"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "08:15",
+            "end": "10:30"
+          },
+          {
+            "title": "Yoga",
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Meditation",
+            "start": "10:10",
+            "end": "10:30"
+          },
+          {
+            "title": "Canyon Walk",
+            "start": "10:45",
+            "end": "12:00"
+          },
+          {
+            "title": "Paddle Board Yoga",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "11:30",
+            "end": "12:15"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "12:30",
+            "end": "13:15"
+          },
+          {
+            "title": "Healing Waters Qigong",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "title": "History Tour",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Mindfulness Activity – Rock Mandalas",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Agave Spirits Tasting",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Sonoran Aerial Walkway",
+            "start": "15:30",
+            "end": "17:00"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:30",
+            "end": "17:15"
+          }
+        ],
+        "Friday": [
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "08:00",
+            "end": "11:00"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "08:15",
+            "end": "10:30"
+          },
+          {
+            "title": "Lotus Rising Flow Yoga",
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Meditation",
+            "start": "10:10",
+            "end": "10:30"
+          },
+          {
+            "title": "Intro to Tai Chi",
+            "start": "10:45",
+            "end": "11:30"
+          },
+          {
+            "title": "Overlook Hike",
+            "start": "10:45",
+            "end": "12:15"
+          },
+          {
+            "title": "Paddle Board Yoga",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "11:30",
+            "end": "12:15"
+          },
+          {
+            "title": "E-Biking 101: Intro to E-Bike Tour",
+            "start": "11:30",
+            "end": "12:45"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "12:30",
+            "end": "13:15"
+          },
+          {
+            "title": "Sound Bath",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "title": "Crater Canyon Exploration",
+            "start": "13:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Mindfulness Activity – Cactus Candles",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Core Yoga",
+            "start": "14:30",
+            "end": "15:30"
+          },
+          {
+            "title": "Farm to Bar: Mixology 101",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:30",
+            "end": "17:15"
+          }
+        ],
+        "Saturday": [
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "08:00",
+            "end": "11:00"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "08:15",
+            "end": "10:30"
+          },
+          {
+            "title": "Yoga",
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Meditation",
+            "start": "10:10",
+            "end": "10:30"
+          },
+          {
+            "title": "Discovery Loop Hike",
+            "start": "10:45",
+            "end": "12:15"
+          },
+          {
+            "title": "Paddle Board Yoga",
+            "start": "11:00",
+            "end": "12:00"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "11:30",
+            "end": "12:15"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "12:30",
+            "end": "13:15"
+          },
+          {
+            "title": "Crater Canyon Exploration",
+            "start": "13:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Mindfulness Activity – Body Scrubs",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Balancing Aroma Restorative Yoga",
+            "start": "14:30",
+            "end": "15:30"
+          },
+          {
+            "title": "Wine Tasting",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Sonoran Aerial Walkway",
+            "start": "15:30",
+            "end": "17:00"
+          },
+          {
+            "title": "Connecting With Water",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:30",
+            "end": "17:15"
+          }
+        ],
+        "Sunday": [
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "08:00",
+            "end": "11:00"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "08:15",
+            "end": "10:30"
+          },
+          {
+            "title": "Yoga",
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Meditation",
+            "start": "10:10",
+            "end": "10:30"
+          },
+          {
+            "title": "Canyon Walk",
+            "start": "10:45",
+            "end": "12:00"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "11:30",
+            "end": "12:15"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "12:30",
+            "end": "13:15"
+          },
+          {
+            "title": "Healing Waters Qigong",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "title": "History Tour",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Mindfulness Activity – Sunprint Postcards",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Farm to Bar: Mixology 101",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Sonoran Aerial Walkway",
+            "start": "15:30",
+            "end": "17:00"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:30",
+            "end": "17:15"
+          }
+        ]
+      }
+    },
+    {
+      "label": "Early Summer 2025",
+      "name": "EARLY SUMMER 2025",
+      "range": "April 20 – June 21",
+      "days": {
+        "Monday": [
+          {
+            "title": "Overlook Hike",
+            "start": "07:00",
+            "end": "08:30"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "07:00",
+            "end": "09:15"
+          },
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "07:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Crater Canyon Exploration",
+            "start": "07:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Ignite Flow Yoga",
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "title": "E-Biking 101: Intro to E-Bike Tour",
+            "start": "09:00",
+            "end": "10:15"
+          },
+          {
+            "title": "Meditation",
+            "start": "10:10",
+            "end": "10:30"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "10:30",
+            "end": "11:15"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "10:30",
+            "end": "11:30"
+          },
+          {
+            "title": "Paddle Board Yoga",
+            "start": "10:30",
+            "end": "11:30"
+          },
+          {
+            "title": "Intro to Tai Chi",
+            "start": "10:45",
+            "end": "11:30"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "11:30",
+            "end": "12:15"
+          },
+          {
+            "title": "Sound Bath",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "title": "Mindfulness Activity – Rock Mandalas",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Cooling Aroma Restorative Yoga",
+            "start": "14:30",
+            "end": "15:30"
+          },
+          {
+            "title": "Wine Tasting",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Yoga Nidra",
+            "start": "15:45",
+            "end": "16:15"
+          },
+          {
+            "title": "Connecting With Water",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:30",
+            "end": "17:15"
+          }
+        ],
+        "Tuesday": [
+          {
+            "title": "Canyon Walk",
+            "start": "07:00",
+            "end": "08:15"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "07:00",
+            "end": "09:15"
+          },
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "07:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Sonoran Aerial Walkway",
+            "start": "07:30",
+            "end": "09:00"
+          },
+          {
+            "title": "Yoga",
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Meditation",
+            "start": "10:10",
+            "end": "10:30"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "10:30",
+            "end": "11:15"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "10:30",
+            "end": "11:30"
+          },
+          {
+            "title": "Paddle Board Yoga",
+            "start": "10:30",
+            "end": "11:30"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "11:30",
+            "end": "12:15"
+          },
+          {
+            "title": "Healing Waters Qigong",
+            "start": "11:45",
+            "end": "12:30"
+          },
+          {
+            "title": "History Tour",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Mindfulness Activity – Cholla Suncatchers",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Agave Spirits Tasting",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:30",
+            "end": "17:15"
+          }
+        ],
+        "Wednesday": [
+          {
+            "title": "Discovery Loop Hike",
+            "start": "07:00",
+            "end": "08:30"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "07:00",
+            "end": "09:15"
+          },
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "07:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Crater Canyon Exploration",
+            "start": "07:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Ignite Flow Yoga",
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "title": "E-Biking 101: Intro to E-Bike Tour",
+            "start": "09:00",
+            "end": "10:15"
+          },
+          {
+            "title": "Meditation",
+            "start": "10:10",
+            "end": "10:30"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "10:30",
+            "end": "11:15"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "10:30",
+            "end": "11:30"
+          },
+          {
+            "title": "Paddle Board Yoga",
+            "start": "10:30",
+            "end": "11:30"
+          },
+          {
+            "title": "Intro to Tai Chi",
+            "start": "10:45",
+            "end": "11:30"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "11:30",
+            "end": "12:15"
+          },
+          {
+            "title": "Sound Bath",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "title": "Mindfulness Activity – Body Scrubs",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Core Yoga",
+            "start": "14:30",
+            "end": "15:30"
+          },
+          {
+            "title": "Farm to Bar: Mixology 101",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Intro to Mantra",
+            "start": "15:45",
+            "end": "16:15"
+          },
+          {
+            "title": "Connecting With Water",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:30",
+            "end": "17:15"
+          }
+        ],
+        "Thursday": [
+          {
+            "title": "Canyon Walk",
+            "start": "07:00",
+            "end": "08:15"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "07:00",
+            "end": "09:15"
+          },
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "07:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Sonoran Aerial Walkway",
+            "start": "07:30",
+            "end": "09:00"
+          },
+          {
+            "title": "Yoga",
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Meditation",
+            "start": "10:10",
+            "end": "10:30"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "10:30",
+            "end": "11:15"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "10:30",
+            "end": "11:30"
+          },
+          {
+            "title": "Paddle Board Yoga",
+            "start": "10:30",
+            "end": "11:30"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "11:30",
+            "end": "12:15"
+          },
+          {
+            "title": "Healing Waters Qigong",
+            "start": "11:45",
+            "end": "12:30"
+          },
+          {
+            "title": "History Tour",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Mindfulness Activity – Rock Mandalas",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Cooling Aroma Restorative Yoga",
+            "start": "14:30",
+            "end": "15:30"
+          },
+          {
+            "title": "Agave Spirits Tasting",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Yoga Nidra",
+            "start": "15:45",
+            "end": "16:15"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:30",
+            "end": "17:15"
+          }
+        ],
+        "Friday": [
+          {
+            "title": "Overlook Hike",
+            "start": "07:00",
+            "end": "08:30"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "07:00",
+            "end": "09:15"
+          },
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "07:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Crater Canyon Exploration",
+            "start": "07:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Ignite Flow Yoga",
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "title": "E-Biking 101: Intro to E-Bike Tour",
+            "start": "09:00",
+            "end": "10:15"
+          },
+          {
+            "title": "Meditation",
+            "start": "10:10",
+            "end": "10:30"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "10:30",
+            "end": "11:15"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "10:30",
+            "end": "11:30"
+          },
+          {
+            "title": "Paddle Board Yoga",
+            "start": "10:30",
+            "end": "11:30"
+          },
+          {
+            "title": "Intro to Tai Chi",
+            "start": "10:45",
+            "end": "11:30"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "11:30",
+            "end": "12:15"
+          },
+          {
+            "title": "Sound Bath",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "title": "Mindfulness Activity – Cactus Candles",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Core Yoga",
+            "start": "14:30",
+            "end": "15:30"
+          },
+          {
+            "title": "Farm to Bar: Mixology 101",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Intro to Mantra",
+            "start": "15:45",
+            "end": "16:15"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:30",
+            "end": "17:15"
+          }
+        ],
+        "Saturday": [
+          {
+            "title": "Discovery Loop Hike",
+            "start": "07:00",
+            "end": "08:30"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "07:00",
+            "end": "09:15"
+          },
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "07:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Crater Canyon Exploration",
+            "start": "07:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Yoga",
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Meditation",
+            "start": "10:10",
+            "end": "10:30"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "10:30",
+            "end": "11:15"
+          },
+          {
+            "title": "Farm Tour",
+            "start": "10:30",
+            "end": "11:30"
+          },
+          {
+            "title": "Paddle Board Yoga",
+            "start": "10:30",
+            "end": "11:30"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "11:30",
+            "end": "12:15"
+          },
+          {
+            "title": "Mindfulness Activity – Body Scrubs",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Cooling Aroma Restorative Yoga",
+            "start": "14:30",
+            "end": "15:30"
+          },
+          {
+            "title": "Wine Tasting",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Yoga Nidra",
+            "start": "15:45",
+            "end": "16:15"
+          },
+          {
+            "title": "Connecting With Water",
+            "start": "16:00",
+            "end": "17:00"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:30",
+            "end": "17:15"
+          }
+        ],
+        "Sunday": [
+          {
+            "title": "Canyon Walk",
+            "start": "07:00",
+            "end": "08:15"
+          },
+          {
+            "title": "Scenic Desert E-Bike Ride",
+            "start": "07:00",
+            "end": "09:15"
+          },
+          {
+            "title": "Castle Peak Via Ferrata Climb",
+            "start": "07:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Sonoran Aerial Walkway",
+            "start": "07:30",
+            "end": "09:00"
+          },
+          {
+            "title": "Yoga",
+            "start": "09:00",
+            "end": "10:00"
+          },
+          {
+            "title": "Meditation",
+            "start": "10:10",
+            "end": "10:30"
+          },
+          {
+            "title": "Guided Archery",
+            "start": "10:30",
+            "end": "11:15"
+          },
+          {
+            "title": "Axe Throwing",
+            "start": "11:30",
+            "end": "12:15"
+          },
+          {
+            "title": "Healing Waters Qigong",
+            "start": "11:45",
+            "end": "12:30"
+          },
+          {
+            "title": "History Tour",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Mindfulness Activity – Sunprint Postcards",
+            "start": "14:00",
+            "end": "14:45"
+          },
+          {
+            "title": "Farm to Bar: Mixology 101",
+            "start": "15:00",
+            "end": "16:00"
+          },
+          {
+            "title": "Castle Hot Springs Documentary Viewing",
+            "start": "16:30",
+            "end": "17:15"
+          }
+        ]
+      }
+    }
+  ]
+}

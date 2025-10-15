@@ -1,0 +1,8 @@
+{
+  "name": "castleics",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "validate:activities": "node --loader \"data:text/javascript,export%20async%20function%20load%28url%2C%20context%2C%20defaultLoad%29%20%7B%20if%20%28url.endsWith%28'.ts'%29%29%20%7B%20return%20defaultLoad%28url%2C%20%7B%20...context%2C%20format%3A%20'module'%20%7D%29%3B%20%7D%20return%20defaultLoad%28url%2C%20context%2C%20defaultLoad%29%3B%20%7D\" scripts/validateSeasonalActivities.ts"
+  }
+}

@@ -5305,5 +5305,10 @@ document.addEventListener('click', (e) => {
 })();
 </script>
 
+<script type="module">
+import { getActivitiesFor } from './src/lib/seasonalActivitiesAdapter.ts';
+window.__seasonalActivitiesLookup = getActivitiesFor;
+</script>
+
 </body>
 </html>
