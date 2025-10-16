@@ -10,6 +10,37 @@
     'Early Summer': 'Early Summer 2025'
   };
   const copyIcon = '<svg viewBox="0 0 24 24" role="img" aria-hidden="true"><path d="M9 7a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-7a2 2 0 0 1-2-2V7Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M6 10v6a2 2 0 0 0 2 2h7" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  const RAZOR_TOUR_SLOTS = {
+    early: [
+      '8:00am – 11:00am | 3-Hour Razor Tour  - Sharing 1 Razor OR Two Separate Razors | Please wear closed toed shoes, long pants, and be sure to bring your valid Drivers License',
+      '2:00pm – 5:00pm | 3-Hour Razor Tour  - Sharing 1 Razor OR Two Separate Razors | Please wear closed toed shoes, long pants, and be sure to bring your valid Drivers License'
+    ],
+    standard: [
+      '9:00am – 12:00pm | 3-Hour Razor Tour  - Sharing 1 Razor OR Two Separate Razors | Please wear closed toed shoes, long pants, and be sure to bring your valid Drivers License',
+      '1:00pm – 4:00pm | 3-Hour Razor Tour  - Sharing 1 Razor OR Two Separate Razors | Please wear closed toed shoes, long pants, and be sure to bring your valid Drivers License'
+    ]
+  };
+  const RAZOR_TOURS = {
+    'Summer 2025': RAZOR_TOUR_SLOTS.early,
+    'Fall 2025': RAZOR_TOUR_SLOTS.standard,
+    'Early Winter 2025': RAZOR_TOUR_SLOTS.standard,
+    'Late Winter 2025': RAZOR_TOUR_SLOTS.standard,
+    'Spring 2025': RAZOR_TOUR_SLOTS.standard,
+    'Early Summer 2025': RAZOR_TOUR_SLOTS.early
+  };
+  const HORSEBACK_RIDES = [
+    'TIME – TIME | 60-Minute Horseback Ride – Please plan to arrive 15 minutes in advance, dressed in long pants and closed-toe shoes.',
+    'TIME – TIME | 90-Minute Horseback Ride – Please plan to arrive 15 minutes in advance, dressed in long pants and closed-toe shoes.'
+  ];
+
+  function createCopyButton() {
+    const copyBtn = document.createElement('button');
+    copyBtn.className = 'copybtn';
+    copyBtn.setAttribute('title', 'Copy line');
+    copyBtn.setAttribute('aria-label', 'Copy line');
+    copyBtn.innerHTML = copyIcon;
+    return copyBtn;
+  }
 
   const dayLookup = DAY_ORDER.reduce((acc, day) => {
     acc[day.toLowerCase()] = day;
@@ -45,16 +76,46 @@
     titleCol.className = 'titleline';
     titleCol.textContent = title;
 
-    const copyBtn = document.createElement('button');
-    copyBtn.className = 'copybtn';
-    copyBtn.setAttribute('title', 'Copy line');
-    copyBtn.setAttribute('aria-label', 'Copy line');
-    copyBtn.innerHTML = copyIcon;
+    const copyBtn = createCopyButton();
 
     actEl.appendChild(timeCol);
     actEl.appendChild(titleCol);
     actEl.appendChild(copyBtn);
     actsContainer.appendChild(actEl);
+  }
+
+  function renderSupplementalLine(text) {
+    const lineEl = document.createElement('div');
+    lineEl.className = 'extra-copy-line';
+    lineEl.setAttribute('data-copy', text);
+
+    const textEl = document.createElement('div');
+    textEl.className = 'extra-copy-text';
+    textEl.textContent = text;
+
+    const copyBtn = createCopyButton();
+
+    lineEl.appendChild(textEl);
+    lineEl.appendChild(copyBtn);
+    return lineEl;
+  }
+
+  function renderSupplementalSection(container, title, lines, key) {
+    if (!container || !Array.isArray(lines) || !lines.length) return;
+    if (container.querySelector(`.extra-copy[data-extra="${key}"]`)) return;
+
+    const wrap = document.createElement('div');
+    wrap.className = 'extra-copy';
+    wrap.setAttribute('data-extra', key);
+
+    const heading = document.createElement('div');
+    heading.className = 'extra-copy-heading';
+    heading.textContent = title;
+    wrap.appendChild(heading);
+
+    lines.forEach(text => wrap.appendChild(renderSupplementalLine(text)));
+
+    container.appendChild(wrap);
   }
 
   function updateDayBadge(dayDetail, count) {
@@ -151,8 +212,16 @@
         activities.forEach(activity => renderActivity(actsContainer, activity));
         updateDayBadge(dayDetail, activities.length);
       });
+      const daySection = seasonDetail.querySelector('.section.day');
+      const razorLines = RAZOR_TOURS[seasonDetail.dataset.seasonFull];
+      if (razorLines && daySection) {
+        renderSupplementalSection(daySection, 'Razor Tours', razorLines, 'razor-tours');
+      }
       updateSeasonBadge(seasonDetail);
     });
+
+    const wrap = document.querySelector('.wrap');
+    renderSupplementalSection(wrap, 'Horseback Rides', HORSEBACK_RIDES, 'horseback-rides');
 
     if (errors.length) {
       errors.forEach(msg => console.error(msg));
