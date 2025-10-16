@@ -134,13 +134,6 @@
     }
   }
 
-  function updateSeasonBadge(seasonDetail) {
-    const badge = seasonDetail.querySelector(':scope > summary .badge');
-    if (badge) {
-      badge.remove();
-    }
-  }
-
   function validateAllDaysPopulated() {
     const errors = [];
     document.querySelectorAll('[data-season]').forEach(seasonDetail => {
@@ -226,7 +219,6 @@
         const razorActs = daySection.querySelector('[data-extra-acts="razor-tours"]');
         renderSupplementalActivities(razorActs, razorLines);
       }
-      updateSeasonBadge(seasonDetail);
     });
 
     const horsebackActs = document.querySelector('[data-extra-acts="horseback-rides"]');
