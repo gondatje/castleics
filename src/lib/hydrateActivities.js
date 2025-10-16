@@ -57,6 +57,95 @@
     actsContainer.appendChild(actEl);
   }
 
+  function renderSeasonNotes(seasonDetail, seasonName, errors) {
+    const notesContainer = seasonDetail.querySelector('[data-notes]');
+    if (!notesContainer) {
+      if (errors) {
+        errors.push(`Missing notes container → Season='${seasonName || seasonDetail.dataset.season || 'Unknown'}'`);
+      }
+      return;
+    }
+    if (typeof window.getSeasonNotes !== 'function') {
+      if (errors) {
+        errors.push('Missing getSeasonNotes adapter');
+      }
+      notesContainer.innerHTML = '';
+      return;
+    }
+    const notesData = window.getSeasonNotes(seasonName);
+    const sections = Array.isArray(notesData?.sections) ? notesData.sections : [];
+    notesContainer.innerHTML = '';
+    sections.forEach(section => {
+      if (!section) return;
+      if (typeof section.heading === 'string') {
+        const headingEl = document.createElement('div');
+        headingEl.className = 'note-heading';
+        headingEl.innerHTML = section.heading.replace(/\n/g, '<br>');
+        notesContainer.appendChild(headingEl);
+      }
+      const lines = Array.isArray(section.lines) ? section.lines : [];
+      lines.forEach(line => {
+        if (typeof line !== 'string') return;
+        const actEl = document.createElement('div');
+        actEl.className = 'act note-act';
+        actEl.setAttribute('data-copy', line);
+
+        const timeCol = document.createElement('div');
+        const pill = document.createElement('span');
+        pill.className = 'timepill';
+        const dot = document.createElement('span');
+        dot.className = 'time-dot';
+        pill.appendChild(dot);
+        pill.appendChild(document.createTextNode(' '));
+        timeCol.appendChild(pill);
+
+        const titleCol = document.createElement('div');
+        titleCol.className = 'titleline';
+        titleCol.textContent = line;
+
+        const copyBtn = document.createElement('button');
+        copyBtn.className = 'copybtn';
+        copyBtn.setAttribute('title', 'Copy line');
+        copyBtn.setAttribute('aria-label', 'Copy line');
+        copyBtn.innerHTML = copyIcon;
+
+        actEl.appendChild(timeCol);
+        actEl.appendChild(titleCol);
+        actEl.appendChild(copyBtn);
+        notesContainer.appendChild(actEl);
+      });
+    });
+  }
+
+  function validateSeasonNotes() {
+    if (typeof window.getSeasonNotes !== 'function') {
+      console.error('Missing getSeasonNotes adapter');
+      throw new Error('Season notes validation failed');
+    }
+    const errors = [];
+    document.querySelectorAll('[data-season]').forEach(seasonDetail => {
+      const seasonName = seasonDetail.dataset.seasonFull || seasonDetail.dataset.season || '';
+      const notesData = window.getSeasonNotes(seasonName);
+      const sections = Array.isArray(notesData?.sections) ? notesData.sections : [];
+      if (sections.length < 1) {
+        errors.push(`Missing season notes → Season='${seasonName || 'Unknown'}'`);
+        return;
+      }
+      sections.forEach((section, idx) => {
+        const lines = Array.isArray(section?.lines) ? section.lines : [];
+        if (lines.length < 1) {
+          const label = typeof section?.heading === 'string' && section.heading ? section.heading : `Index ${idx}`;
+          errors.push(`Missing season note lines → Season='${seasonName || 'Unknown'}', Section='${label}'`);
+        }
+      });
+    });
+    if (errors.length) {
+      errors.forEach(msg => console.error(msg));
+      throw new Error('Season notes validation failed');
+    }
+    return true;
+  }
+
   function updateDayBadge(dayDetail, count) {
     const badge = dayDetail.querySelector('summary .badge');
     if (badge) {
@@ -152,12 +241,15 @@
         updateDayBadge(dayDetail, activities.length);
       });
       updateSeasonBadge(seasonDetail);
+      renderSeasonNotes(seasonDetail, seasonDetail.dataset.seasonFull || seasonKey || seasonDetail.dataset.season, errors);
     });
 
     if (errors.length) {
       errors.forEach(msg => console.error(msg));
       throw new Error('Activity hydration failed');
     }
+
+    validateSeasonNotes();
 
     validateAllDaysPopulated();
   }
