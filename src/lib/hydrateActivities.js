@@ -135,10 +135,9 @@
   }
 
   function updateSeasonBadge(seasonDetail) {
-    const total = seasonDetail.querySelectorAll('[data-day] .acts .act').length;
     const badge = seasonDetail.querySelector(':scope > summary .badge');
     if (badge) {
-      badge.textContent = `${total} ${total === 1 ? 'activity' : 'activities'}`;
+      badge.remove();
     }
   }
 
