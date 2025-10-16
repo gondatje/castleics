@@ -33,6 +33,45 @@
     'TIME – TIME | 90-Minute Horseback Ride – Please plan to arrive 15 minutes in advance, dressed in long pants and closed-toe shoes.'
   ];
 
+  const DASH_REGEX = /\s*[\u2012-\u2015-]\s*/g;
+
+  function ordinalSuffix(day) {
+    if (typeof day !== 'number' || Number.isNaN(day)) return '';
+    const mod100 = day % 100;
+    if (mod100 >= 11 && mod100 <= 13) return 'th';
+    switch (day % 10) {
+      case 1:
+        return 'st';
+      case 2:
+        return 'nd';
+      case 3:
+        return 'rd';
+      default:
+        return 'th';
+    }
+  }
+
+  function formatRangePart(part) {
+    if (typeof part !== 'string') return '';
+    const trimmed = part.trim();
+    const match = trimmed.match(/^([A-Za-z]+)\s+(\d{1,2})(?:\s*(st|nd|rd|th))?$/);
+    if (!match) return trimmed;
+    const month = match[1];
+    const dayNumber = parseInt(match[2], 10);
+    if (!dayNumber) return `${month} ${match[2]}`;
+    return `${month} ${dayNumber}${ordinalSuffix(dayNumber)}`;
+  }
+
+  function formatSeasonRange(rangeText) {
+    if (typeof rangeText !== 'string') return rangeText;
+    const normalized = rangeText.replace(DASH_REGEX, ' - ').trim();
+    const parts = normalized.split(' - ').map(formatRangePart);
+    if (parts.length !== 2) {
+      return normalized;
+    }
+    return `${parts[0]} - ${parts[1]}`;
+  }
+
   function createCopyButton() {
     const copyBtn = document.createElement('button');
     copyBtn.className = 'copybtn';
@@ -187,7 +226,7 @@
       const seasonData = data[seasonKey];
       const rangeEl = seasonDetail.querySelector('.season-range');
       if (rangeEl && seasonData.range) {
-        rangeEl.textContent = seasonData.range;
+        rangeEl.textContent = formatSeasonRange(seasonData.range);
       }
 
       const dayDetails = seasonDetail.querySelectorAll('[data-day]');
