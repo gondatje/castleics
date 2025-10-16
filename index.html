@@ -14,7 +14,7 @@
   .head{max-width:1060px;margin:0 auto;padding:14px 18px;display:flex;align-items:center;gap:14px;}
   .brand{display:flex;align-items:center;gap:12px;min-width:0}
   .title{margin:0;font-weight:800;letter-spacing:.2px;font-size:18px;color:var(--ink);}
-  .wrap{max-width:1060px;margin:0 auto;padding:20px 18px 28px}
+  .wrap{max-width:1060px;margin:0 auto;padding:20px 18px calc(20px + env(safe-area-inset-bottom, 0px))}
   .toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
   .btn{padding:10px;width:36px;height:36px;border:1px solid var(--line);border-radius:12px;background:#fff;cursor:pointer;transition:transform .12s, box-shadow .12s, border-color .12s;box-shadow:0 1px 3px rgba(0,0,0,.04);display:inline-flex;align-items:center;justify-content:center;font-weight:600;}
   .btn:hover{transform:translateY(-1px);box-shadow:var(--shadow)}
@@ -5233,15 +5233,15 @@
   </div>
 </details>
 
-<div class="section day supplemental">
-  <details class="supplemental" data-extra="horseback-rides">
-    <summary>
-      <svg class="chev" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg"><path d="M1.5 3l3.5 4 3.5-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-      <div class="shead"><div class="season-name">Horseback Rides</div></div>
-    </summary>
+<details class="season supplemental" data-extra="horseback-rides">
+  <summary>
+    <svg class="chev" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg"><path d="M1.5 3l3.5 4 3.5-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+    <div class="shead"><div class="season-name">Horseback Rides</div></div>
+  </summary>
+  <div class="section supplemental">
     <div class="acts" data-extra-acts="horseback-rides"></div>
-  </details>
-</div>
+  </div>
+</details>
 
 </div>
 <script>
