@@ -46,7 +46,17 @@
   .copybtn svg{width:16px;height:16px;color:var(--ink);opacity:.9}
   .copybtn.copied{border-color:var(--accent);box-shadow:0 0 0 4px rgba(0,113,227,.15)}
 
-  @media (max-width:720px){.act{grid-template-columns:1fr 34px} .timepill{margin-bottom:6px} }
+  @media (max-width:720px){
+    .act{
+      grid-template-columns:auto 34px;
+      grid-template-areas:"time copy" "title title";
+      align-items:center;
+      row-gap:6px;
+    }
+    .timepill{grid-area:time;margin-bottom:0}
+    .titleline{grid-area:title}
+    .copybtn{grid-area:copy;align-self:center}
+  }
 </style>
 </head>
 <body>
