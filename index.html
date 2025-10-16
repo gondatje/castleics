@@ -45,6 +45,12 @@
   .copybtn:hover{transform:translateY(-1px);box-shadow:var(--shadow)}
   .copybtn svg{width:16px;height:16px;color:var(--ink);opacity:.9}
   .copybtn.copied{border-color:var(--accent);box-shadow:0 0 0 4px rgba(0,113,227,.15)}
+  .extra-copy{margin:14px 0 0;padding:14px 14px 16px;border:1px solid var(--line);border-radius:12px;background:#fff;display:flex;flex-direction:column;gap:12px}
+  .extra-copy-heading{font-weight:750;color:var(--pine);font-size:15px}
+  .extra-copy-line{display:flex;align-items:flex-start;gap:12px;padding:4px 0;border-bottom:1px solid rgba(0,0,0,.05)}
+  .extra-copy-line:last-child{border-bottom:none}
+  .extra-copy-text{flex:1;font-weight:600;line-height:1.35}
+  .extra-copy-line .copybtn{margin-left:auto}
 
   @media (max-width:720px){
     .act{
@@ -5213,7 +5219,7 @@ collapseBtn.addEventListener('click', () => {
 document.addEventListener('click', (e) => {
   const btn = e.target.closest('.copybtn');
   if (!btn) return;
-  const wrapper = btn.closest('.act');
+  const wrapper = btn.closest('[data-copy]');
   const str = wrapper?.getAttribute('data-copy') || '';
   navigator.clipboard.writeText(str).then(() => {
     btn.classList.add('copied'); setTimeout(()=>btn.classList.remove('copied'), 1000);
