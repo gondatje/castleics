@@ -45,6 +45,14 @@
   .copybtn:hover{transform:translateY(-1px);box-shadow:var(--shadow)}
   .copybtn svg{width:16px;height:16px;color:var(--ink);opacity:.9}
   .copybtn.copied{border-color:var(--accent);box-shadow:0 0 0 4px rgba(0,113,227,.15)}
+  #timeModalOverlay{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(17,19,21,.36);padding:20px;z-index:4000}
+  #timeModalOverlay[hidden]{display:none}
+  .time-modal{background:#fff;border-radius:14px;box-shadow:var(--shadow);padding:20px;min-width:260px;max-width:92vw;display:flex;flex-direction:column;gap:16px}
+  .time-modal-title{margin:0;font-size:18px;font-weight:700;color:var(--ink);text-align:center}
+  .time-modal-input{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:10px;font-size:16px}
+  .time-modal-actions{display:flex;gap:10px;justify-content:flex-end}
+  .time-modal-actions button{padding:8px 14px;border-radius:10px;border:1px solid var(--line);background:#fff;font-weight:600;cursor:pointer}
+  .time-modal-actions button.add{background:var(--pine);color:#fff;border-color:var(--pine)}
   @media (max-width:720px){
     .act{
       grid-template-columns:auto 34px;
@@ -5261,13 +5269,173 @@ collapseBtn.addEventListener('click', () => {
 });
 
 // Copy buttons
+const TIME_PLACEHOLDER = 'TIME – TIME';
+
+function copyTextToClipboard(str, btn){
+  if (!str) return;
+  navigator.clipboard.writeText(str).then(() => {
+    btn.classList.add('copied');
+    setTimeout(()=>btn.classList.remove('copied'), 1000);
+  });
+}
+
+function formatMinutesToString(total){
+  const minutesInDay = 24 * 60;
+  const normalized = ((total % minutesInDay) + minutesInDay) % minutesInDay;
+  const hour24 = Math.floor(normalized / 60);
+  const minute = normalized % 60;
+  const meridiem = hour24 >= 12 ? 'pm' : 'am';
+  const hour12 = hour24 % 12 || 12;
+  return `${hour12}:${String(minute).padStart(2, '0')}${meridiem}`;
+}
+
+function normalizeStartTime(raw){
+  const fallbackMinutes = 7 * 60;
+  const fallback = { minutes: fallbackMinutes, formatted: formatMinutesToString(fallbackMinutes) };
+  if (!raw || typeof raw !== 'string') return fallback;
+  const cleaned = raw.toLowerCase().replace(/[^0-9apm:]/g, '');
+  if (!cleaned) return fallback;
+  let meridiem = null;
+  if (cleaned.includes('am')) meridiem = 'am';
+  else if (cleaned.includes('pm')) meridiem = 'pm';
+  let numeric = cleaned.replace(/am|pm/g, '');
+  if (!numeric) return fallback;
+
+  let hours = 0;
+  let minutes = 0;
+  if (numeric.includes(':')) {
+    const [h, m = '0'] = numeric.split(':');
+    hours = parseInt(h, 10);
+    minutes = parseInt(m.slice(0, 2), 10);
+  } else if (numeric.length <= 2) {
+    hours = parseInt(numeric, 10);
+  } else {
+    const hourPart = numeric.slice(0, -2);
+    const minutePart = numeric.slice(-2);
+    hours = parseInt(hourPart, 10);
+    minutes = parseInt(minutePart, 10);
+  }
+
+  if (!Number.isFinite(hours)) return fallback;
+  if (!Number.isFinite(minutes)) minutes = 0;
+
+  hours = Math.max(0, hours);
+  minutes = Math.max(0, minutes);
+  if (minutes >= 60) {
+    hours += Math.floor(minutes / 60);
+    minutes = minutes % 60;
+  }
+
+  if (!meridiem) {
+    let inferenceHour = hours;
+    if (inferenceHour === 0) inferenceHour = 12;
+    while (inferenceHour > 12) inferenceHour -= 12;
+    if (inferenceHour >= 7 && inferenceHour <= 11) meridiem = 'am';
+    else if (inferenceHour === 12) meridiem = 'pm';
+    else meridiem = 'pm';
+  }
+
+  let hour24;
+  if (meridiem === 'am') hour24 = hours % 12;
+  else hour24 = (hours % 12) + 12;
+
+  const totalMinutes = hour24 * 60 + minutes;
+  return { minutes: totalMinutes, formatted: formatMinutesToString(totalMinutes) };
+}
+
+function extractDuration(text){
+  const match = text.match(/(\d+)-Minute/);
+  const minutes = match ? parseInt(match[1], 10) : 60;
+  return Number.isFinite(minutes) ? minutes : 60;
+}
+
+function ensureTimeModal(){
+  if (window.__timeModal) return window.__timeModal;
+  const overlay = document.createElement('div');
+  overlay.id = 'timeModalOverlay';
+  overlay.setAttribute('hidden', '');
+  overlay.innerHTML = `
+    <div class="time-modal" role="dialog" aria-modal="true" aria-labelledby="timeModalTitle">
+      <h2 class="time-modal-title" id="timeModalTitle">start time?</h2>
+      <input type="text" class="time-modal-input" />
+      <div class="time-modal-actions">
+        <button type="button" class="cancel">Cancel</button>
+        <button type="button" class="add">Add</button>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(overlay);
+  const input = overlay.querySelector('.time-modal-input');
+  const cancelBtn = overlay.querySelector('.cancel');
+  const addBtn = overlay.querySelector('.add');
+  window.__timeModal = { overlay, input, cancelBtn, addBtn };
+  return window.__timeModal;
+}
+
+function requestStartTime(){
+  const { overlay, input, cancelBtn, addBtn } = ensureTimeModal();
+  const previousActive = document.activeElement;
+  overlay.hidden = false;
+  requestAnimationFrame(() => {
+    input.value = '';
+    input.focus({ preventScroll: true });
+  });
+
+  return new Promise(resolve => {
+    function cleanup(result){
+      overlay.hidden = true;
+      document.removeEventListener('keydown', onKeyDown, true);
+      cancelBtn.removeEventListener('click', onCancel);
+      addBtn.removeEventListener('click', onAdd);
+      overlay.removeEventListener('click', onOverlayClick);
+      if (previousActive && typeof previousActive.focus === 'function') {
+        previousActive.focus({ preventScroll: true });
+      }
+      resolve(result);
+    }
+    function onAdd(){
+      cleanup({ action: 'add', value: input.value });
+    }
+    function onCancel(){
+      cleanup({ action: 'cancel' });
+    }
+    function onKeyDown(evt){
+      if (evt.key === 'Enter') {
+        evt.preventDefault();
+        onAdd();
+      } else if (evt.key === 'Escape') {
+        evt.preventDefault();
+        onCancel();
+      }
+    }
+    function onOverlayClick(evt){
+      if (evt.target === overlay) onCancel();
+    }
+
+    cancelBtn.addEventListener('click', onCancel);
+    addBtn.addEventListener('click', onAdd);
+    overlay.addEventListener('click', onOverlayClick);
+    document.addEventListener('keydown', onKeyDown, true);
+  });
+}
+
 document.addEventListener('click', (e) => {
   const btn = e.target.closest('.copybtn');
   if (!btn) return;
   const wrapper = btn.closest('[data-copy]');
   const str = wrapper?.getAttribute('data-copy') || '';
-  navigator.clipboard.writeText(str).then(() => {
-    btn.classList.add('copied'); setTimeout(()=>btn.classList.remove('copied'), 1000);
+  if (!str.includes(TIME_PLACEHOLDER)) {
+    copyTextToClipboard(str, btn);
+    return;
+  }
+  requestStartTime().then(result => {
+    if (!result || result.action !== 'add') return;
+    const normalized = normalizeStartTime(result.value);
+    const duration = extractDuration(str);
+    const endMinutes = normalized.minutes + duration;
+    const range = `${normalized.formatted} – ${formatMinutesToString(endMinutes)}`;
+    const updated = str.replace(TIME_PLACEHOLDER, range);
+    copyTextToClipboard(updated, btn);
   });
 });
 
