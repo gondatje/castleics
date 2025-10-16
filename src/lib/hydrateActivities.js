@@ -84,38 +84,47 @@
     actsContainer.appendChild(actEl);
   }
 
-  function renderSupplementalLine(text) {
-    const lineEl = document.createElement('div');
-    lineEl.className = 'extra-copy-line';
-    lineEl.setAttribute('data-copy', text);
+  function parseTimeAndTitle(text) {
+    if (typeof text !== 'string') return { time: '', title: '' };
+    const parts = text.split('|');
+    const time = (parts.shift() || '').trim();
+    const title = parts.join('|').trim();
+    return { time, title };
+  }
 
-    const textEl = document.createElement('div');
-    textEl.className = 'extra-copy-text';
-    textEl.textContent = text;
+  function createSupplementalAct(text) {
+    const { time, title } = parseTimeAndTitle(text);
+    const actEl = document.createElement('div');
+    actEl.className = 'act';
+    actEl.setAttribute('data-copy', text);
+
+    const timeCol = document.createElement('div');
+    if (time) {
+      const pill = document.createElement('span');
+      pill.className = 'timepill';
+      const dot = document.createElement('span');
+      dot.className = 'time-dot';
+      pill.appendChild(dot);
+      pill.appendChild(document.createTextNode(` ${time}`));
+      timeCol.appendChild(pill);
+    }
+
+    const titleCol = document.createElement('div');
+    titleCol.className = 'titleline';
+    titleCol.textContent = title;
 
     const copyBtn = createCopyButton();
 
-    lineEl.appendChild(textEl);
-    lineEl.appendChild(copyBtn);
-    return lineEl;
+    actEl.appendChild(timeCol);
+    actEl.appendChild(titleCol);
+    actEl.appendChild(copyBtn);
+    return actEl;
   }
 
-  function renderSupplementalSection(container, title, lines, key) {
+  function renderSupplementalActivities(container, lines) {
     if (!container || !Array.isArray(lines) || !lines.length) return;
-    if (container.querySelector(`.extra-copy[data-extra="${key}"]`)) return;
-
-    const wrap = document.createElement('div');
-    wrap.className = 'extra-copy';
-    wrap.setAttribute('data-extra', key);
-
-    const heading = document.createElement('div');
-    heading.className = 'extra-copy-heading';
-    heading.textContent = title;
-    wrap.appendChild(heading);
-
-    lines.forEach(text => wrap.appendChild(renderSupplementalLine(text)));
-
-    container.appendChild(wrap);
+    container.innerHTML = '';
+    lines.forEach(text => container.appendChild(createSupplementalAct(text)));
   }
 
   function updateDayBadge(dayDetail, count) {
@@ -126,7 +135,7 @@
   }
 
   function updateSeasonBadge(seasonDetail) {
-    const total = seasonDetail.querySelectorAll('.acts .act').length;
+    const total = seasonDetail.querySelectorAll('[data-day] .acts .act').length;
     const badge = seasonDetail.querySelector(':scope > summary .badge');
     if (badge) {
       badge.textContent = `${total} ${total === 1 ? 'activity' : 'activities'}`;
@@ -215,13 +224,14 @@
       const daySection = seasonDetail.querySelector('.section.day');
       const razorLines = RAZOR_TOURS[seasonDetail.dataset.seasonFull];
       if (razorLines && daySection) {
-        renderSupplementalSection(daySection, 'Razor Tours', razorLines, 'razor-tours');
+        const razorActs = daySection.querySelector('[data-extra-acts="razor-tours"]');
+        renderSupplementalActivities(razorActs, razorLines);
       }
       updateSeasonBadge(seasonDetail);
     });
 
-    const wrap = document.querySelector('.wrap');
-    renderSupplementalSection(wrap, 'Horseback Rides', HORSEBACK_RIDES, 'horseback-rides');
+    const horsebackActs = document.querySelector('[data-extra-acts="horseback-rides"]');
+    renderSupplementalActivities(horsebackActs, HORSEBACK_RIDES);
 
     if (errors.length) {
       errors.forEach(msg => console.error(msg));
